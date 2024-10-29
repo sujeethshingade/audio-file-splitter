@@ -26,6 +26,6 @@ def split_audio(input_file, output_dir):
         print(f"Created one additional padded segment from remaining {remaining_samples/16000:.3f} seconds")
 
 if __name__ == "__main__":
-    input_file = "hello.mp4"  # Replace with your input file path
+    input_file = "path/to/your/file"  # Replace with your input file path
     output_dir = "output_segments"       
     split_audio(input_file, output_dir)
